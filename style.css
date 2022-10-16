@@ -13,7 +13,12 @@ h1 span {
 
 }
 
-section {
+h2 {
+
+    font-size: 40px;
+}
+
+.flex-container {
     display: flex;
     margin-bottom: 80px;
 }
@@ -61,4 +66,42 @@ p {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 80px;
+}
+
+.showoff {
+    color: orange;
+
+}
+
+.shadow {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+
+}
+
+#border-gradiant {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 239, 14), orange);
+    border-image-slice: 1;
+}
+
+#border-gradiant-two {
+
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+
+footer p {
+    color: grey;
+    text-align: center;
+}
+
+#last-area {
+    font-size: 52px;
+    padding-left: 7px;
 }
